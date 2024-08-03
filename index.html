@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +11,50 @@
             background: url(templates/footer.svg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: bottom;
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             color: #333;
         }
+
         p {
             margin-bottom: 10px;
         }
+
         .login-link {
             margin-top: 20px;
         }
+
+        footer {
+            background: url('path/to/your/background-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 20vh;
+            /* Adjust the height based on your needs */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Optional: add overlay to enhance text readability */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
-<body>
-</body>
-</html>
 
+<body>
+
+    <footer>
+        <div class="footer-content">
+        </div>
+    </footer>
+</body>
+
+</html>
