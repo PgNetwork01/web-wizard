@@ -5,93 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Wizard</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
-
-
-        body {
-            font-family: Arial, sans-serif;
-            background: url(templates/footer.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            align-items: center;
-            align-self: center;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            font-family: "Kufam", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        h1,
-        h2 {
-            font-family: "Comfortaa", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 700;
-            margin-bottom: 0;
-            color: #333;
-            font-size: 120px;
-        }
-
-        p {
-            margin-bottom: 10px;
-        }
-
-        .login-link {
-            margin-top: 20px;
-        }
-
-        footer {
-            /* Adjust the height based on your needs */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    
-
-        .footer-content {
-            /* Optional: add overlay to enhance text readability */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .invite {
-            background-color: black;
-            color: white;
-            border: 2px solid rgb(9, 214, 9);
-            padding: 15px;
-            font-size: medium;
-            box-shadow: 5px 5px 0px 0px #000, 7px 7px 0px 0px rgb(9, 214, 9);
-            transition: 0.5s;
-        }
-
-        .invite:hover {
-            box-shadow: 0px 0px 0px 0px black;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">MyWebsite</a>
+        </div>
+        <div class="navbar-toggle" id="navbar-toggle">
+            <span class="navbar-icon">&#9776;</span>
+        </div>
+        <ul class="navbar-links" id="navbar-links" style="list-style: none;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <h1 style="color: white;">Web Wizard</h1>
-    <p style="color: rgb(214, 214, 214); margin-top: 0;">A programming hub for HTML, CSS, JS, Python, SQL, and PHP. Learn, collaborate,
+    <p style="color: rgb(214, 214, 214); margin-top: 0;">A programming hub for HTML, CSS, JS, Python, SQL, and PHP.
+        Learn, collaborate,
         and grow with our custom bot!</p>
     <button class="invite">Join Now</button>
     <footer>
         <div class="footer-content">
         </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
