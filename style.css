@@ -42,6 +42,7 @@ p {
 }
 
 footer {
+    position: fixed;
     /* Adjust the height based on your needs */
     display: flex;
     align-items: center;
