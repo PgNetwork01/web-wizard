@@ -112,7 +112,6 @@ footer {
 
 .navbar-links a:hover {
     border-bottom: 2px solid rgb(9, 214, 9);
-    color: #333;
     transition: 0.5s;
 }
 
