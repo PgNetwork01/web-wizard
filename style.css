@@ -106,13 +106,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 14px 20px;
-    
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .navbar-links a:hover {
     border-bottom: 2px solid rgb(9, 214, 9);
     color: #333;
+    transition: 0.5s;
 }
 
 /* Navbar toggle button for small screens */
