@@ -112,7 +112,7 @@ footer {
 }
 
 .navbar-links a:hover {
-    border-bottom: 2px solid rgb(9, 214, 9);
+    color: rgb(9, 214, 9);
 }
 
 /* Navbar toggle button for small screens */
