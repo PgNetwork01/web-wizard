@@ -117,6 +117,7 @@ footer {
 
 /* Navbar toggle button for small screens */
 .navbar-toggle {
+    float: right;
     display: none;
     cursor: pointer;
     padding: 14px 20px;
