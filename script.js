@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function redirectDiscord() {
-    window.location.href = "https://www.example.com";
+    window.location.href = "https://discord.gg/HjTmfrwFJb";
 }
