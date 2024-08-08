@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         navbarLinks.classList.toggle('active');
     });
 });
+
+
+function redirectDiscord() {
+    window.location.href = "https://www.example.com";
+}
