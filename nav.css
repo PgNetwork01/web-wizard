@@ -1,0 +1,82 @@
+/* Style the navbar */
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+}
+
+.navbar-brand {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar-links {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-links a:hover {
+    color: rgb(9, 214, 9);
+}
+
+/* Navbar toggle button for small screens */
+.navbar-toggle {
+    float: right;
+    display: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navbar-links li {
+        display: block;
+    }
+
+    .navbar-links a {
+        text-align: left;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    h1, h2 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-links.active {
+        display: flex;
+    }
+}
