@@ -1,3 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track { 
+    border-radius: 10px;
+    background: transperent;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #777; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
 /* Style the navbar */
 .navbar {
     background-color: transparent;
