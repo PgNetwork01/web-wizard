@@ -11,13 +11,15 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #777; 
+    background: #444; 
     border-radius: 10px;
+    transition: 0.6s;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #fff;
+    background: #777;
+    transition: 0.6s;
   }
 /* Style the navbar */
 .navbar {
