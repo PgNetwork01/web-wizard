@@ -1,23 +1,5 @@
+/* Write CSS Here */
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #111;
-    color: #fff;
-    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-.game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #fff;
-    background-color: #000;
-}
-
-canvas {
-    background-color: #000;
-    display: block;
-}
