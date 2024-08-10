@@ -72,3 +72,20 @@ footer {
     cursor: pointer;
     transition: 0.5s;
 }
+
+.project-container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.project-container > div {
+    background-color: rgba(27, 27, 27, 0.322);
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
