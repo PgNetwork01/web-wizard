@@ -41,7 +41,7 @@ h2 {
   }
 
   .grid-container > div {
-    background-color: rgba(134, 134, 134, 0.322);
+    background-color: transparent;
     text-align: center;
     padding: 20px 10px;
     font-size: 30px;
