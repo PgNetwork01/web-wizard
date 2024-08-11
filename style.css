@@ -88,3 +88,19 @@ footer {
     font-size: 30px;
     border-radius: 5px;
   }
+.skills-container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.skills-container > div {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
