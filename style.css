@@ -105,7 +105,7 @@ footer {
     border-radius: 5px;
   }
 
-  .project1::before {
+  .project-1::before {
     width: 50%;
     height: 50%;
     background-color: red;
