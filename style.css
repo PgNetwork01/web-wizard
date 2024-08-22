@@ -82,11 +82,30 @@ footer {
 }
 
 .project-container > div {
-    background-color: var(--glassbg);
     text-align: center;
     padding: 20px 10px;
     font-size: 30px;
     border-radius: 5px;
+    position: absolute;
+  }
+
+  .project-1 {
+    width: 378px;
+    right: 70%;
+    background-color: rgb(7 0 0);
+  }
+  .project-2 {
+    width: 378px;
+    right: 66%;
+    background-color: rgb(16 16 16);
+  }
+  .project-3 {
+    width: 378px;
+    right: 62%;
+    background-color: rgb(24 24 24);
+  }
+  .project-1:hover, .project-2:hover, .project-3:hover {
+    z-index: 1;
   }
 .skills-container {
     width: 95%;
