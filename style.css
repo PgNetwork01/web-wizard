@@ -87,11 +87,9 @@ footer {
     font-size: 30px;
     border-radius: 5px;
     background-color: rgb(24 24 24);
+    width: 410px;
   }
 
-  .project-1:hover, .project-2:hover, .project-3:hover {
-    z-index: 1;
-  }
 .skills-container {
     width: 95%;
     display: grid;
