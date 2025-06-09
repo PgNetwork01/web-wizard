@@ -2,6 +2,7 @@ import os
 from flask import Flask, redirect, url_for, render_template
 from flask_dance.contrib.discord import make_discord_blueprint, discord
 
+
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", "supersekrit")
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"  # Remove in production
